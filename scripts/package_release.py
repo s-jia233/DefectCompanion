@@ -6,7 +6,7 @@ from pathlib import Path
 import shutil
 import zipfile
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 def digest(path):
     with path.open('rb') as stream:
@@ -24,8 +24,8 @@ def archive_folder(folder, destination):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--binary-dir', type=Path, default=ROOT / 'release')
-    parser.add_argument('--output-dir', type=Path, default=ROOT / 'dist')
+    parser.add_argument('--binary-dir', type=Path, default=ROOT / 'dist' / 'app')
+    parser.add_argument('--output-dir', type=Path, default=ROOT / 'dist' / 'packages')
     args = parser.parse_args()
     version = json.loads((ROOT / 'version.json').read_text(encoding='utf-8'))
     tag = 'v' + version['version']
@@ -52,22 +52,16 @@ def main():
     source.mkdir()
     for name in ['DefectCompanion.exe', 'DefectCompanion.exe.config']:
         shutil.copy2(binary_dir / name, portable / name)
-    shutil.copy2(ROOT / 'README.md', portable / '使用说明.md')
+    readme = (ROOT / 'README.md').read_text(encoding='utf-8')
+    (portable / '使用说明.md').write_text(readme.split('## 项目结构')[0], encoding='utf-8')
+    (portable / 'docs').mkdir()
     for name in ['CHANGELOG.md', 'THIRD_PARTY_NOTICES.md', 'version.json']:
-        shutil.copy2(ROOT / name, portable / name)
-    allowed = {'.cs', '.ps1'}
-    named = {'version.json', 'card_catalog.json', 'package_release.py',
-             'App.config', 'app.manifest', 'pet.ico', 'pet.png', '.gitignore',
-             'README.md', 'CHANGELOG.md', 'THIRD_PARTY_NOTICES.md'}
-    for path in sorted(ROOT.iterdir()):
-        if path.is_file() and (path.suffix in allowed or path.name in named):
-            if path.name != 'Version.Generated.cs':
-                shutil.copy2(path, source / path.name)
-    (source / 'assets').mkdir()
-    for path in sorted((ROOT / 'assets').iterdir()):
-        if path.is_file() and (path.suffix == '.png' or path.name == 'mod-cable-prefabs.bin'):
-            if not path.name.startswith('motion'):
-                shutil.copy2(path, source / 'assets' / path.name)
+        shutil.copy2(ROOT / name, portable / 'docs' / name)
+    for name in ['.gitignore', 'README.md', 'CHANGELOG.md', 'THIRD_PARTY_NOTICES.md', 'version.json', 'build.ps1']:
+        shutil.copy2(ROOT / name, source / name)
+    for folder in ['src', 'assets', 'data', 'tests', 'scripts']:
+        shutil.copytree(ROOT / folder, source / folder,
+                        ignore=shutil.ignore_patterns('__pycache__', '*.pyc', '*.exe', '*.pdb', '*.rsp'))
     files = []
     for folder in [portable, source]:
         target = output / (folder.name + '.zip')
