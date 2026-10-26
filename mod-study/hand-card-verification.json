@@ -1,0 +1,20 @@
+{
+  "art-claw": {
+    "frames": 96,
+    "actual_wrist_travel_span_px": 78.296,
+    "head_and_clamp_rows": 96,
+    "release_wrist": [
+      277.0,
+      183.99998474121088
+    ]
+  },
+  "art-ball-lightning": {
+    "frames": 114,
+    "actual_wrist_travel_span_px": 51.384,
+    "head_and_clamp_rows": 114,
+    "release_wrist": [
+      293.56655883789097,
+      234.116729736328
+    ]
+  }
+}

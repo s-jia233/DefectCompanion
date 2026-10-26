@@ -1,0 +1,26 @@
+{
+  "reference": "Local original art-storm: images/packed/card_portraits/defect/storm.png",
+  "reference_sha256": "4e3a3d8b41faf9832edef82a55f663a6d28b951c43b8a2f418a1cfa4f7250047",
+  "renderer": "WPF geometry with native fx-flare texture",
+  "palette": [
+    "#110d25",
+    "#311c46",
+    "#5b3178",
+    "#a24eb1",
+    "#d300ff",
+    "#fcf5ff"
+  ],
+  "cloud": "Layered dark silhouette, three broad rotating cloud tongues, separate lit faces and recessed eye; about 270x150 stage units",
+  "lightning": "Broad white core, dark ink separation, magenta rim and corona; no thin violet cable strokes",
+  "surges_seconds": [
+    0.54,
+    1.12,
+    1.7
+  ],
+  "secondary_side_delay_seconds": 0.1,
+  "duration_seconds": 2.5,
+  "head_occlusion_protected": true,
+  "native_blue_eyes_and_scarf_retained": true,
+  "rules_unchanged": true,
+  "adaptation": "Desktop screen composition; no full-screen tint, game/mod code execution or game file edits"
+}

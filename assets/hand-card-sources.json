@@ -1,0 +1,27 @@
+{
+  "references": [
+    {
+      "file": "art-claw.png",
+      "sha256": "111349f5b6f479f23e847ac80fcbe505ad8fb74cd4c94a9b9944aa38ff614278"
+    },
+    {
+      "file": "art-ball_lightning.png",
+      "sha256": "a64db551a2476b07ede4ead3e9d3cffe5f2b334931d691a86bf69f00c1835e8c"
+    },
+    {
+      "file": "orb-lightning.png",
+      "sha256": "458436b521a358f3a2230b9ce0581b8a036f0cdc3a6bd9123229ae5736d01132"
+    }
+  ],
+  "native_clips": {
+    "art-claw": 96,
+    "art-ball-lightning": 114
+  },
+  "fps": 60,
+  "claw": "Original visible mechanical claw; two-bone arm trajectory and wrist rotation; icy edges, dark cut and orange heat, combo width scaling",
+  "ball": "Gold native orb held over the palm, white-gold veins, forward thrust and independent projectile; .28 second flight and branching impact",
+  "displayed_channel_delay": 1.1,
+  "logical_orb_rules_unchanged": true,
+  "head_and_clamp_bindings_exported": true,
+  "installed_game_or_mod_edited": false
+}

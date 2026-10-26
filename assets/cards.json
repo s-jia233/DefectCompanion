@@ -1,0 +1,290 @@
+[
+  {
+    "id": "zap",
+    "title": "电击",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "生成一个闪电球；球槽满时先激发最右的球。",
+    "original_art": "art-zap.png"
+  },
+  {
+    "id": "dualcast",
+    "title": "双重释放",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "按球种连续激发最右球两次，间隔0.24秒。",
+    "original_art": "art-dualcast.png"
+  },
+  {
+    "id": "charge_battery",
+    "title": "充电",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "获得两格储能，强化下一次激发。",
+    "original_art": "art-charge_battery.png"
+  },
+  {
+    "id": "coolheaded",
+    "title": "冷静头脑",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "生成一个冰霜球；头部变蓝，上方飘雪。",
+    "original_art": "art-coolheaded.png"
+  },
+  {
+    "id": "darkness",
+    "title": "漆黑",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "双手凝聚黑暗球，送入球槽；保留越久激发越强。",
+    "original_art": "art-darkness.png"
+  },
+  {
+    "id": "fusion",
+    "title": "聚变",
+    "kind": "skill",
+    "cost": "2",
+    "desktop_effect": "生成一个等离子球，激发后获得一格储能。",
+    "original_art": "art-fusion.png"
+  },
+  {
+    "id": "rainbow",
+    "title": "彩虹",
+    "kind": "skill",
+    "cost": "2",
+    "desktop_effect": "三色充能球沿弧线扫出，依次生成闪电、冰霜与黑暗球。",
+    "original_art": "art-rainbow.png"
+  },
+  {
+    "id": "hologram",
+    "title": "全息影像",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "重演上一张牌；本体投影延迟跟随并独立持续三秒。",
+    "original_art": "art-hologram.png"
+  },
+  {
+    "id": "echo_form",
+    "title": "回响形态",
+    "kind": "power",
+    "cost": "3",
+    "desktop_effect": "张开双臂进入蓝色能量形态；下一张牌再施放一次。",
+    "original_art": "art-echo_form.png"
+  },
+  {
+    "id": "rocket_punch",
+    "title": "火箭飞拳",
+    "kind": "attack",
+    "cost": "2",
+    "desktop_effect": "蒸汽蓄压后直接冲拳，命中停顿再回收；消耗储能强化。",
+    "original_art": "art-rocket_punch.png"
+  },
+  {
+    "id": "leap",
+    "title": "飞跃",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "屈膝起跳，在冰晶涟漪中落地。",
+    "original_art": "art-leap.png"
+  },
+  {
+    "id": "reboot",
+    "title": "重启",
+    "kind": "skill",
+    "cost": "0",
+    "desktop_effect": "清空球、储能和所有能力，恢复三个球槽。",
+    "original_art": "art-reboot.png"
+  },
+  {
+    "id": "ball_lightning",
+    "title": "球状闪电",
+    "kind": "attack",
+    "cost": "1",
+    "desktop_effect": "弹出闪电球，同时生成一个闪电充能球。",
+    "original_art": "art-ball_lightning.png"
+  },
+  {
+    "id": "cold_snap",
+    "title": "寒流",
+    "kind": "attack",
+    "cost": "1",
+    "desktop_effect": "挥出冰晶斩击，同时生成一个冰霜球。",
+    "original_art": "art-cold_snap.png"
+  },
+  {
+    "id": "glacier",
+    "title": "冰川",
+    "kind": "skill",
+    "cost": "2",
+    "desktop_effect": "展开冰晶护盾，生成两个冰霜球。",
+    "original_art": "art-glacier.png"
+  },
+  {
+    "id": "chill",
+    "title": "冰寒",
+    "kind": "skill",
+    "cost": "0",
+    "desktop_effect": "用冰霜球填满所有空球槽，雪粒环绕机体。",
+    "original_art": "art-chill.png"
+  },
+  {
+    "id": "tempest",
+    "title": "暴风雨",
+    "kind": "skill",
+    "cost": "X",
+    "desktop_effect": "消耗储能召来雷雨，生成至少两个闪电球。",
+    "original_art": "art-tempest.png"
+  },
+  {
+    "id": "storm",
+    "title": "雷暴",
+    "kind": "power",
+    "cost": "1",
+    "desktop_effect": "召出紫色雷云；之后每出一张能力牌，额外生成一个闪电球。",
+    "original_art": "art-storm.png"
+  },
+  {
+    "id": "thunder",
+    "title": "雷霆",
+    "kind": "power",
+    "cost": "1",
+    "desktop_effect": "握拳爆发金色电场；之后激发闪电时追加雷击。",
+    "original_art": "art-thunder.png"
+  },
+  {
+    "id": "tesla_coil",
+    "title": "特斯拉线圈",
+    "kind": "attack",
+    "cost": "0",
+    "desktop_effect": "触发所有闪电球的放电，不消耗这些球。",
+    "original_art": "art-tesla_coil.png"
+  },
+  {
+    "id": "capacitor",
+    "title": "扩容",
+    "kind": "power",
+    "cost": "1",
+    "desktop_effect": "增加两个球槽，最多保留五个充能球。",
+    "original_art": "art-capacitor.png"
+  },
+  {
+    "id": "defragment",
+    "title": "碎片整理",
+    "kind": "power",
+    "cost": "1",
+    "desktop_effect": "获得一点集中，增强充能球，最多五点。",
+    "original_art": "art-defragment.png"
+  },
+  {
+    "id": "loop",
+    "title": "循环",
+    "kind": "power",
+    "cost": "1",
+    "desktop_effect": "开启循环；每六秒触发最右球一次，不消耗它。",
+    "original_art": "art-loop.png"
+  },
+  {
+    "id": "buffer",
+    "title": "缓冲",
+    "kind": "power",
+    "cost": "2",
+    "desktop_effect": "获得三层缓冲；身后牌子受击反冲，耗尽后破碎。",
+    "original_art": "art-buffer.png"
+  },
+  {
+    "id": "claw",
+    "title": "爪击",
+    "kind": "attack",
+    "cost": "0",
+    "desktop_effect": "挥出三道爪痕；连续使用，爪击特效逐渐增强。",
+    "original_art": "art-claw.png"
+  },
+  {
+    "id": "barrage",
+    "title": "弹幕齐射",
+    "kind": "attack",
+    "cost": "1",
+    "desktop_effect": "按当前充能球数量发射一轮弹幕，至少一发。",
+    "original_art": "art-barrage.png"
+  },
+  {
+    "id": "sweeping_beam",
+    "title": "扫荡射线",
+    "kind": "attack",
+    "cost": "1",
+    "desktop_effect": "从掌心横扫一束橙金色射线。",
+    "original_art": "art-sweeping_beam.png"
+  },
+  {
+    "id": "hyperbeam",
+    "title": "超能光束",
+    "kind": "attack",
+    "cost": "2",
+    "desktop_effect": "释放宽幅蓝色核心光束，随后短暂散热。",
+    "original_art": "art-hyperbeam.png"
+  },
+  {
+    "id": "meteor_strike",
+    "title": "陨石打击",
+    "kind": "attack",
+    "cost": "5",
+    "desktop_effect": "一次陨石冲击，三路等离子能量回流至球位。",
+    "original_art": "art-meteor_strike.png"
+  },
+  {
+    "id": "ice_lance",
+    "title": "冰之长枪",
+    "kind": "attack",
+    "cost": "3",
+    "desktop_effect": "凝成冰之长枪射出，同时生成两个冰霜球。",
+    "original_art": "art-ice_lance.png"
+  },
+  {
+    "id": "ftl",
+    "title": "超越光速",
+    "kind": "attack",
+    "cost": "0",
+    "desktop_effect": "短距离闪身突进，留下三重机械残影。",
+    "original_art": "art-ftl.png"
+  },
+  {
+    "id": "turbo",
+    "title": "内核加速",
+    "kind": "skill",
+    "cost": "0",
+    "desktop_effect": "前倾短冲，留下残影与气浪，立即获得两格储能。",
+    "original_art": "art-turbo.png"
+  },
+  {
+    "id": "double_energy",
+    "title": "双倍能量",
+    "kind": "skill",
+    "cost": "1",
+    "desktop_effect": "储能翻倍，最多三格；空储能时补一格。",
+    "original_art": "art-double_energy.png"
+  },
+  {
+    "id": "creative_ai",
+    "title": "创造性AI",
+    "kind": "power",
+    "cost": "3",
+    "desktop_effect": "开启AI，立即及每十二秒随机施放一张卡牌。",
+    "original_art": "art-creative_ai.png"
+  },
+  {
+    "id": "machine_learning",
+    "title": "机器学习",
+    "kind": "power",
+    "cost": "1",
+    "desktop_effect": "开启学习；每再出四张牌，自动获得一点集中。",
+    "original_art": "art-machine_learning.png"
+  },
+  {
+    "id": "overclock",
+    "title": "超频",
+    "kind": "skill",
+    "cost": "0",
+    "desktop_effect": "储能充满，动作加速五秒，随后短暂散热。",
+    "original_art": "art-overclock.png"
+  }
+]

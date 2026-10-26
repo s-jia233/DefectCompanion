@@ -1,0 +1,11 @@
+{
+  "id": "MoreDefectAnimations",
+  "name": "More Defect Animations",
+  "author": "page",
+  "version": "v0.17.1",
+  "description": "Twenty-one local Defect card animations for solo and multiplayer, with stable/beta compatibility and independent effects on replacement skins. Preserves original card resolution.",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": false,
+  "dependencies": []
+}

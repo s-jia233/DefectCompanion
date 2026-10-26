@@ -1,0 +1,184 @@
+{
+  "source": "Original native Spine orb geometry and original rendered body shading",
+  "visible_mask": "Native core alpha with draw-order foreground occlusion per frame; original scarf, arms, grey mechanical patch and armour remain intact",
+  "palette": [
+    [
+      19,
+      5,
+      8
+    ],
+    [
+      69,
+      7,
+      12
+    ],
+    [
+      134,
+      12,
+      16
+    ],
+    [
+      198,
+      22,
+      14
+    ],
+    [
+      240,
+      44,
+      13
+    ],
+    [
+      255,
+      100,
+      16
+    ],
+    [
+      255,
+      221,
+      55
+    ]
+  ],
+  "direction": "Predominantly incandescent red, with small yellow highlights on the original brightest facets",
+  "frames": 3272,
+  "clips": {
+    "attack": {
+      "frames": 90,
+      "visible_pixels_max": 1516,
+      "visible_pixels_min": 597,
+      "source_core_pixels_max": 2311
+    },
+    "cast": {
+      "frames": 74,
+      "visible_pixels_max": 1460,
+      "visible_pixels_min": 532,
+      "source_core_pixels_max": 2311
+    },
+    "die": {
+      "frames": 134,
+      "visible_pixels_max": 1579,
+      "visible_pixels_min": 232,
+      "source_core_pixels_max": 1599
+    },
+    "hurt": {
+      "frames": 44,
+      "visible_pixels_max": 1736,
+      "visible_pixels_min": 908,
+      "source_core_pixels_max": 2312
+    },
+    "idle_loop": {
+      "frames": 720,
+      "visible_pixels_max": 1471,
+      "visible_pixels_min": 1369,
+      "source_core_pixels_max": 2314
+    },
+    "process": {
+      "frames": 94,
+      "visible_pixels_max": 1491,
+      "visible_pixels_min": 1007,
+      "source_core_pixels_max": 2312
+    },
+    "art-ball-lightning": {
+      "frames": 114,
+      "visible_pixels_max": 1478,
+      "visible_pixels_min": 1436,
+      "source_core_pixels_max": 2311
+    },
+    "art-claw": {
+      "frames": 96,
+      "visible_pixels_max": 1474,
+      "visible_pixels_min": 1374,
+      "source_core_pixels_max": 2311
+    },
+    "art-dark": {
+      "frames": 108,
+      "visible_pixels_max": 1442,
+      "visible_pixels_min": 1070,
+      "source_core_pixels_max": 2310
+    },
+    "art-dualcast": {
+      "frames": 108,
+      "visible_pixels_max": 1438,
+      "visible_pixels_min": 436,
+      "source_core_pixels_max": 2312
+    },
+    "art-echo": {
+      "frames": 132,
+      "visible_pixels_max": 1488,
+      "visible_pixels_min": 1128,
+      "source_core_pixels_max": 2312
+    },
+    "art-glacier": {
+      "frames": 144,
+      "visible_pixels_max": 1496,
+      "visible_pixels_min": 1178,
+      "source_core_pixels_max": 2313
+    },
+    "art-hyperbeam": {
+      "frames": 126,
+      "visible_pixels_max": 1490,
+      "visible_pixels_min": 1201,
+      "source_core_pixels_max": 2312
+    },
+    "art-ice-spear": {
+      "frames": 138,
+      "visible_pixels_max": 1454,
+      "visible_pixels_min": 1301,
+      "source_core_pixels_max": 2311
+    },
+    "art-overclock": {
+      "frames": 126,
+      "visible_pixels_max": 1478,
+      "visible_pixels_min": 1430,
+      "source_core_pixels_max": 2311
+    },
+    "art-rainbow": {
+      "frames": 129,
+      "visible_pixels_max": 1440,
+      "visible_pixels_min": 693,
+      "source_core_pixels_max": 2311
+    },
+    "art-rocket": {
+      "frames": 90,
+      "visible_pixels_max": 1478,
+      "visible_pixels_min": 1431,
+      "source_core_pixels_max": 2311
+    },
+    "art-storm": {
+      "frames": 150,
+      "visible_pixels_max": 1502,
+      "visible_pixels_min": 1216,
+      "source_core_pixels_max": 2311
+    },
+    "art-tempest": {
+      "frames": 138,
+      "visible_pixels_max": 1490,
+      "visible_pixels_min": 1182,
+      "source_core_pixels_max": 2312
+    },
+    "art-thunder": {
+      "frames": 117,
+      "visible_pixels_max": 1469,
+      "visible_pixels_min": 1443,
+      "source_core_pixels_max": 2310
+    },
+    "art-turbo": {
+      "frames": 94,
+      "visible_pixels_max": 1478,
+      "visible_pixels_min": 1441,
+      "source_core_pixels_max": 2310
+    },
+    "art-learning": {
+      "frames": 156,
+      "visible_pixels_max": 1442,
+      "visible_pixels_min": 1391,
+      "source_core_pixels_max": 2311
+    },
+    "art-fusion": {
+      "frames": 150,
+      "visible_pixels_max": 1442,
+      "visible_pixels_min": 859,
+      "source_core_pixels_max": 2311
+    }
+  },
+  "new_body_or_head_gestures": false
+}

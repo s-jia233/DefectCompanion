@@ -1,0 +1,28 @@
+{
+  "art-ice-spear": {
+    "frames": 138,
+    "wrist_travel_px": 29.769,
+    "head_and_clamp_rows": 138,
+    "actual_thrust_px": 26.683
+  },
+  "art-overclock": {
+    "frames": 126,
+    "wrist_travel_px": 19.735,
+    "head_and_clamp_rows": 126
+  },
+  "core_mask": {
+    "offset_from_orb_bone": [
+      0,
+      -20
+    ],
+    "reference_pose_orb_anchor": [
+      207.511,
+      248.799
+    ],
+    "measured_blue_torso_median": [
+      211,
+      228
+    ],
+    "preserves_original_core_shading": true
+  }
+}

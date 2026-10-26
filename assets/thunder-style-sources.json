@@ -1,0 +1,30 @@
+{
+  "reference": "Original local images/packed/card_portraits/defect/thunder.png",
+  "adaptation": "Original lightning/flare texture contour and alpha retained; baked ochre/yellow/pale portrait colours for WPF. New asymmetric columns drawn in code.",
+  "textures": [
+    {
+      "source": "bolt-01b.png",
+      "source_sha256": "db59572539bbeba55b44e991bfb5fa71d9cb4b876dd0c7104e0993cc6b3dde2e",
+      "output": "fx-thunder-bolt-01b.png",
+      "output_sha256": "63b7e2aa7624cda56ac166ce4b63e713210c5b9742d82db359711afe38a20ea3"
+    },
+    {
+      "source": "bolt-03.png",
+      "source_sha256": "422fc77cc947747dd3d004a9866e595756797ec7d7ada0201cefc49fabc1e439",
+      "output": "fx-thunder-bolt-03.png",
+      "output_sha256": "402027d875a72ed1b0ea0f8f3e88a5e815e43e283b7bf32ac5aaaa395ef6fe7e"
+    },
+    {
+      "source": "bolt-04.png",
+      "source_sha256": "775b9df1300d65853767c71753a0b72c9edfaf9380e99348924b2f078c900bb7",
+      "output": "fx-thunder-bolt-04.png",
+      "output_sha256": "323d9b7874418fe64abd60ac2dfeadf0e636f1ab013f15bdd9fe69bb9607b142"
+    },
+    {
+      "source": "fx-flare.png",
+      "source_sha256": "7a9c7d8f8043d3a9eeff7b15d98d1e80ddb5d60e5ae5c65abf204e95475461ce",
+      "output": "fx-thunder-flare.png",
+      "output_sha256": "e8f2ee3907b6f85949c7ec918c677b1b39ef175d6e35c280a2be1f8b33a70922"
+    }
+  ]
+}

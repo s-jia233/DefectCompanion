@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "id": "MoreDefectAnimations",
+    "name": "More Defect Animations",
+    "author": "page",
+    "version": "v0.17.1",
+    "description": "Twenty-one local Defect card animations for solo and multiplayer, with stable/beta compatibility and independent effects on replacement skins. Preserves original card resolution.",
+    "has_dll": true,
+    "has_pck": false,
+    "affects_gameplay": false,
+    "dependencies": []
+  },
+  "assembly_sha256": "e9dd0bded86db162beaf87600bd9e04e6c2af21b35636b7eb4822f9a118b0c2f",
+  "resources": [
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\sign.png",
+      "output": "mod-buffer-sign.png",
+      "sha256": "6d453804f977f79b69f96b9cfcc8fdd704162f3f5cf4302b43cb442a0c2d1362"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\pole.png",
+      "output": "mod-buffer-pole.png",
+      "sha256": "4b5ef557d5b01830d7a2f98befff80feb2a5712622f344ca7d2a8cf267011a95"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\stones.png",
+      "output": "mod-buffer-stones.png",
+      "sha256": "93311919f942ad1bdc22a0797e7e88d7360e9b68acb1c36bdec899c103e15352"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\light-field.png",
+      "output": "mod-buffer-light-field.png",
+      "sha256": "142cfea629b43aad99c644a7a1161b75b5db3de6ef3562e2916ebb3edf9ac8b5"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\ground-shadow.png",
+      "output": "mod-buffer-ground-shadow.png",
+      "sha256": "a07990d3af66de2a08d272016381806d95f13ee1078cbb24431453caa44f2f4c"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\fragment-0.png",
+      "output": "mod-buffer-fragment-0.png",
+      "sha256": "87c8cd6d40c5c0365e593a85c4332c62a5a9a59448c015998f8561ebab933074"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\fragment-1.png",
+      "output": "mod-buffer-fragment-1.png",
+      "sha256": "fb4a8b80ab6738b561a7f471f3926ac3a8e114dd4092ccc2efc24750ce7fd514"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\fragment-2.png",
+      "output": "mod-buffer-fragment-2.png",
+      "sha256": "19d046ed0a7b695db2d85570535336489739dffd1213971d2d9380e472c104f6"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\fragment-back-0.png",
+      "output": "mod-buffer-fragment-back-0.png",
+      "sha256": "b449b99fd6689ffcb60767a0e0928fd926801d9e0fe9101453bf963286d87e77"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\fragment-back-1.png",
+      "output": "mod-buffer-fragment-back-1.png",
+      "sha256": "3999eb1d4ab5bca3297c894e41a40a13faed01fd17ab1a2c3e1f7fe310c34f15"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\buffer\\fragment-back-2.png",
+      "output": "mod-buffer-fragment-back-2.png",
+      "sha256": "a3669613844c4b58ac776297e22bedd59ba1a48fb8a2bb2cb3f23e63850b48ca"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\charge-battery\\red-clamp.png",
+      "output": "mod-charge-red-clamp.png",
+      "sha256": "5f7b13cb119ad52cd9e64298d0dbf329beb07e70b574d59ab10ddf15745a2604"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\charge-battery\\red-cable.png",
+      "output": "mod-charge-red-cable.png",
+      "sha256": "86f348cf8844613f378db1c7a1309665e4274ec2984c4eabc6dc8fe81d84ca37"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\charge-battery\\blue-clamp.png",
+      "output": "mod-charge-blue-clamp.png",
+      "sha256": "37f3eee911c7abfc011a2efe5637d839c1ee102ac7d1ee2bdc745f6be13442c6"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\charge-battery\\blue-cable.png",
+      "output": "mod-charge-blue-cable.png",
+      "sha256": "ce01701ee47e3e0e2a4b5626a02d2f4a73530aaf76fea83d0adceeffe9509ff4"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\charge-battery\\cable-prefabs.bin",
+      "output": "mod-cable-prefabs.bin",
+      "sha256": "254cbbe2615191bdb2a2382fb00e290437cab7f67de7879db058d8e6e140d271"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\ice-lance\\snow-00..15.png",
+      "output": "mod-ice-snow-0.png"
+    },
+    {
+      "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\2868840\\3810696310\\assets\\ice-lance\\mist-00..15.png",
+      "output": "mod-ice-mist-0.png"
+    }
+  ],
+  "ice_frame_count": 1156,
+  "defragment_frame_count": 108,
+  "notes": "Local personal-use adaptation. No mod assembly is loaded or distributed by the pet. Read-only source inspection; source game and subscription files unchanged."
+}

@@ -1,0 +1,15 @@
+release/
+dist/
+.build-tools/
+staging/
+__pycache__/
+*.pyc
+*.exe
+*.exe.config
+*.pdb
+*.log
+*.rsp
+Version.Generated.cs
+.env
+.env.*
+!.env.example

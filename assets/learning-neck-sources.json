@@ -1,0 +1,23 @@
+{
+  "native_slots": [
+    "neck",
+    "pipe 1",
+    "pipe 2"
+  ],
+  "frames": 156,
+  "head_rise_stage_units": 18,
+  "neck_base_fixed": true,
+  "rear_pipe_bases_fixed": true,
+  "head_scale_unchanged": true,
+  "visible_pixels_min": 481,
+  "visible_pixels_max": 986,
+  "material_bounds": [
+    182,
+    147,
+    44,
+    59
+  ],
+  "occlusion": "Separate native neck/pipe layers masked by their actual later draw-order slots; original head, scarf, arms and armour remain in front",
+  "added_appendages": 0,
+  "fusion_unchanged": true
+}
