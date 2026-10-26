@@ -55,25 +55,19 @@ def main():
     shutil.copy2(ROOT / 'README.md', portable / '使用说明.md')
     for name in ['CHANGELOG.md', 'THIRD_PARTY_NOTICES.md', 'version.json']:
         shutil.copy2(ROOT / name, portable / name)
-    allowed = {'.cs', '.py', '.ps1', '.md'}
-    named = {'version.json', 'card_catalog.json', 'art-direction.json',
-             'App.config', 'app.manifest', 'pet.ico', 'pet.png', '.gitignore'}
+    allowed = {'.cs', '.ps1'}
+    named = {'version.json', 'card_catalog.json', 'package_release.py',
+             'App.config', 'app.manifest', 'pet.ico', 'pet.png', '.gitignore',
+             'README.md', 'CHANGELOG.md', 'THIRD_PARTY_NOTICES.md'}
     for path in sorted(ROOT.iterdir()):
         if path.is_file() and (path.suffix in allowed or path.name in named):
             if path.name != 'Version.Generated.cs':
                 shutil.copy2(path, source / path.name)
     (source / 'assets').mkdir()
     for path in sorted((ROOT / 'assets').iterdir()):
-        if path.is_file() and (path.suffix in {'.png', '.json'} or path.name == 'mod-cable-prefabs.bin'):
+        if path.is_file() and (path.suffix == '.png' or path.name == 'mod-cable-prefabs.bin'):
             if not path.name.startswith('motion'):
                 shutil.copy2(path, source / 'assets' / path.name)
-    for folder, suffixes in [('docs', {'.md'}), ('mod-study', {'.md', '.json'}),
-                              ('native-study', {'.gd', '.godot', '.gdextension', '.md'})]:
-        for path in sorted((ROOT / folder).glob('*')):
-            if path.is_file() and path.suffix in suffixes:
-                target = source / folder / path.name
-                target.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(path, target)
     files = []
     for folder in [portable, source]:
         target = output / (folder.name + '.zip')
@@ -81,7 +75,7 @@ def main():
         files.append({'name': target.name, 'bytes': target.stat().st_size, 'sha256': digest(target)})
     (output / 'SHA256SUMS.txt').write_text(''.join(item['sha256'] + '  ' + item['name'] + '\n' for item in files), encoding='utf-8')
     report = {'version': version['version'], 'tag': tag, 'channel': version['channel'],
-              'internal_baseline': 'v23', 'binary_sha256': digest(executable),
+              'binary_sha256': digest(executable),
               'archives_verified': True, 'files': files}
     (output / 'release-manifest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     (output / 'RELEASE_NOTES.md').write_text((ROOT / 'CHANGELOG.md').read_text(encoding='utf-8') +

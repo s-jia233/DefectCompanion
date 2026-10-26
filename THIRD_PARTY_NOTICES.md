@@ -1,11 +1,16 @@
-# 素材与参考来源
+# 素材来源
 
-故障机器人角色、卡面、充能球及游戏素材来自 Mega Crit 的《杀戮尖塔 2》，权利归原权利人所有。本项目是非官方同人桌宠，卡牌效果按桌面互动改编。
+角色、卡面、充能球和游戏素材归 Mega Crit《杀戮尖塔 2》所有。本项目为非官方同人桌宠。
 
-部分动画、贴图及绑定数据参考本机订阅的 **More Defect Animations / 更多机器人动画**，作者 **page_**，参考版本 **v0.17.1**：
+部分动画素材来自 page_ 的 [More Defect Animations / 更多机器人动画](https://steamcommunity.com/sharedfiles/filedetails/?id=3810696310)，经过桌宠适配。
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=3810696310
+## 第三方许可
 
-桌宠包含经过适配的部分素材和预处理数据；运行时不加载模组 DLL，也不需要启动游戏。素材来源记录见 `assets/*sources.json` 及 `mod-study`。
+Copyright (c) 2014-present Godot Engine contributors (see AUTHORS.md at https://github.com/godotengine/godot/blob/4.5/AUTHORS.md).
+Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
 
-本说明不为第三方素材授予新的使用许可。
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
